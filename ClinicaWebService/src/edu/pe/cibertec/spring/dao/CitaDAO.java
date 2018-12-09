@@ -17,7 +17,7 @@ import edu.pe.cibertec.spring.util.ConexionDB;
 
 @Repository
 public class CitaDAO   {
-
+//coneccion 
 private ConexionDB cnx;
 	
 	public CitaDAO(){		
