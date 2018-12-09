@@ -26,7 +26,7 @@ private ConexionDB cnx;
 	//
 	public Cita actualizarCita(Cita objPro) {
 		Cita result = null;
-		
+		//
 		Connection cn = (Connection) cnx.getConexion();
 		//codigo para llamar a un SP de mysql: sp_insertar_usuario
 		try {
