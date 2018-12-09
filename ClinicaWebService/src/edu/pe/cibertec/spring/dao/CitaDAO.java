@@ -23,7 +23,7 @@ private ConexionDB cnx;
 	public CitaDAO(){		
 		 this.cnx = new ConexionDB();
 	}
-	
+	//
 	public Cita actualizarCita(Cita objPro) {
 		Cita result = null;
 		
